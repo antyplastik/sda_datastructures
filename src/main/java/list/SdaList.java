@@ -82,4 +82,6 @@ public interface SdaList {
      * @throws IndexOutOfBoundsException jeśli indeks leży poza zakresem listy
      */
     void removeAt(int index);
+
+    void printListElements();
 }
